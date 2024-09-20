@@ -56,11 +56,7 @@ function Countdown() {
       <h1>Countdown Timer App</h1>
 
       <div id="input">
-        <input
-          type="datetime-local"
-          id="datetime"
-          onChange={(e) => setTarget(e.target.value)}
-        />
+        <input type="datetime-local" id="datetime" onChange={(e) => setTarget(e.target.value)} />
         <button id="Submit"  onClick={handleSubmit}> Start </button>
         <button id="Paused"  onClick={handlePaused}> Paused</button>
         <button id="Reset"   onClick={handleReset}> Reset </button>
