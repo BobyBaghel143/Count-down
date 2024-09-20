@@ -1,7 +1,7 @@
 {
   "name": "countdown",
   "home": "https://BobyBaghel143.github.io/Count-down",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
